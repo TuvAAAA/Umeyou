@@ -1,16 +1,13 @@
 body{
     background-color:#211612;
     display: flex;
-    flex-wrap: wrap;
-    max-width: 100vw;
+    position: fixed;
 }
 
 
 header{
-    width: 100vw;
     display: flex;
     justify-content: space-between;
-    justify-items: center;
     align-items: center;
     padding:54px;
 }
@@ -49,13 +46,75 @@ p{
 .hero-section{
     display: flex;
     background-color: #f4f3ef;
-    max-width: 100vw;
 
 }
 
 .image-hero{
-    width: 1220px;
+    min-width: 60vw;
 }
+
+.image-hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.text-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 40vw;
+    
+}
+
+.stor-hero-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.stor-hero-text h1{
+    font-size: 2.7vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.stor-hero-text h2{
+    font-size: 2.5vw;
+    font-weight: 200;
+    
+}
+
+.CTA-hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 3vw;
+    
+    
+}
+button{
+width: 50%;
+height: 60px;
+border: none;
+
+}
+
+button.info{
+    background-color: aqua;
+    
+}
+
+button.buy{
+background-color: red;
+}
+
+
+
+
+
 
 
 
