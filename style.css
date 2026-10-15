@@ -92,7 +92,7 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 3vw;
+    font-size: 2.8vw;
     
     
 }
@@ -162,6 +162,38 @@ button.buy{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+
+footer{
+    background-color: rgb(58, 131, 131);
+    display: flex;
+
+}
+
+
+
+.logplats{
+    background-color: #472c8a;
+    display: flex;
+    
+
+}
+
+.umeyou{
+    margin-top: 1.5vh;
+    margin-right: 2vw;
+}
+
+.umeyou img{
+    max-width:18vw; 
+}
+
+.fotadr{
+    font-size: 10px;
+}
+
+
+
 
 
 
