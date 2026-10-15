@@ -1,7 +1,8 @@
 body{
     background-color:#211612;
     display: flex;
-    position: fixed;
+    flex-wrap: wrap;
+
 }
 
 
@@ -38,7 +39,7 @@ nav{
 p{
     display: flex;
     flex-wrap: wrap;
-    font-family:;
+   
 }
 
 
@@ -96,20 +97,72 @@ p{
     
 }
 button{
-width: 50%;
-height: 60px;
-border: none;
+    width: 50%;
+    height: 60px;
+    border: none;
+
 
 }
 
 button.info{
-    background-color: aqua;
+    background-color: #f4f3ef;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
 button.buy{
-background-color: red;
+    background-color: #8565d6;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+.all-events{
+    margin: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.article-section{
+    background-color: #f4f3ef;
+    display: flex;
+    justify-content: space-between;
+    max-width: 30vw;
+    flex-direction: column;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    
+}   
+
+
+.image-art{
+    min-width: 30vw;
+    height: 21vh;
+}
+
+.image-art img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.art-text h1{
+    font-size: 2.7vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.art-text h2{
+    font-size: 2.5vw;
+    font-weight: 200;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 
 
 
