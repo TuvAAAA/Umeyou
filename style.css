@@ -51,7 +51,7 @@ p{
 }
 
 .image-hero{
-    min-width: 60vw;
+    min-width: 40vw;
 }
 
 .image-hero img{
@@ -126,7 +126,7 @@ button.buy{
     background-color: #f4f3ef;
     display: flex;
     justify-content: space-between;
-    max-width: 30vw;
+    max-width: 28vw;
     flex-direction: column;
     margin-left: 2vw;
     margin-bottom: 2vh;
@@ -135,7 +135,8 @@ button.buy{
 
 
 .image-art{
-    min-width: 30vw;
+    min-width: 28vw;
+    min-height: 20vw;
     height: 21vh;
 }
 
@@ -146,12 +147,12 @@ button.buy{
 }
 
 .art-text h1{
-    font-size: 2.7vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.4vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .art-text h2{
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     font-weight: 200;
     
 }
@@ -165,17 +166,13 @@ button.buy{
 
 
 footer{
-    background-color: rgb(58, 131, 131);
+    background-color: #8565d6;
     display: flex;
-
+    width: 100%;
 }
 
-
-
 .logplats{
-    background-color: #472c8a;
     display: flex;
-    
 
 }
 
@@ -192,12 +189,66 @@ footer{
     font-size: 10px;
 }
 
+.nernav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-weight: bolder;
+}
 
+.vänster{
+    
+}
 
+.höger{
+    
+}
 
+.vänster,
+.höger{
+    flex: 1 1 0;
+    min-width: 0;
+}
 
+.news img{
+    max-width: 30vw;
+}
 
+.logga-slu{
+    display: flex;
+    justify-content: flex-start;
+}
 
+.logga-slu img{
+    padding: 1rem;
+    max-width: 3vw;
+    max-height: 3vh;
+}
+
+.news{
+    font-size: smaller;
+}
+
+.new-buttons{
+    display: flex;
+}
+
+.new-buttons button1{
+    background-color: #f4f3ef;
+    padding-right: 13vw;
+    padding-left: 2vw;
+    margin-right: 6vw;
+    color:rgb(195, 194, 194);
+    
+}
+
+.new-buttons button2{
+    background-color: #211612;
+    color: #f4f3ef;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
 
 
 
